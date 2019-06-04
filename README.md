@@ -1,2 +1,1 @@
-# component-calendar
-캘린더 만들기
+# 캘린더 만들기
