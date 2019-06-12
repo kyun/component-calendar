@@ -1,0 +1,55 @@
+
+
+.Calendar{
+  width: 480px;
+  //height: 480px;
+  background-color: #fff;
+}
+
+.CalendarHeader{
+  padding: 8px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  span.title{
+    font-size: 12pt;
+    font-weight: bold;
+    color: orange;
+  }
+  button{
+    cursor: pointer;
+    background:transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    font-size: 18pt;
+    color: #909090;
+  }
+}
+
+.CalendarBody{
+  .row{
+    width:100%;
+    .box{
+      position: relative;
+      display: inline-flex;
+      width: calc(100%/7);
+      height: 0;
+      padding-bottom: calc(100%/7);
+      &:first-child{
+        color: red;
+      }
+      &:last-child{
+        color: blue;
+      }
+      span.txt{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
