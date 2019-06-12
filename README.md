@@ -1,7 +1,9 @@
 # 캘린더 만들기
 
 ## 목표 
-![목표 이미지](./doc/ideal.png)
+![목표 이미지](./doc/ideal.jpg)
+
+[출처](https://www.justinmind.com/blog/best-calendar-app-designs-and-how-to-prototype-your-own/)
 
 ## Library 
 
