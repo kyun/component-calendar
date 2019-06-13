@@ -1,10 +1,10 @@
 import React from 'react';
-import Calendar from 'components/Calendar';
+import CalendarContainer from 'containers/CalendarContainer';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Calendar />
+      <CalendarContainer />
     </div>
   );
 }
